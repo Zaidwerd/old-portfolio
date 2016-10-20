@@ -1,0 +1,111 @@
+/*INDEX.HTML*/
+.mainBoard{
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainName{
+color: #ffffff;
+font-size: 5em;
+text-align: center;
+margin: 15%;
+font-family: 'Kaushan Script', cursive;
+}
+
+.mainLink{
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  margin: 0 10%;
+}
+
+/*PROJECT.HTML*/
+.board{
+  background-color: #00897B;
+}
+/*HEADER*/
+.projectHeader{
+  height: 50px;
+  width: 100%;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  background-color: #CFD8DC;
+  border-radius: 50%;
+  font-size: 10px;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+}
+
+.name{
+ font-size: 3em;
+ display: inline-block;
+ float: left;
+ color: #CFD8DC;
+ margin: 5px;
+font-family: 'Source Code Pro', monospace;
+}
+
+.navLink{
+  height: 50px;
+  width: 50px;
+  background-color: #CFD8DC;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  float: right;
+  margin: 5px;
+}
+
+/*CONTENT*/
+
+.p1a{
+  height: 300px;
+  width: 420px;
+  background-color: #CFD8DC;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  background-image: url(sushime-gameplay.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.p1b{
+  height: 300px;
+  width: 420px;
+  background-color: #CFD8DC;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  background-image: url(sushime-landing.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.p1Text{
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*RESUME.HTML*/
+
+.resumeBoard{
+  background-color: #004D40;
+}
+
+
+
