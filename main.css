@@ -24,6 +24,10 @@ font-family: 'Kaushan Script', cursive;
   margin: 0 10%;
 }
 
+.mainLink:hover{
+  background-color: #000000;
+}
+
 /*PROJECT.HTML*/
 .board{
   background-color: #00897B;
@@ -43,6 +47,11 @@ font-family: 'Kaushan Script', cursive;
   display: inline-block;
   float: left;
   margin: 5px;
+}
+
+.logo:hover{
+  background-image: url(background.png);
+  background-size: contain;
 }
 
 .name{
@@ -66,6 +75,9 @@ font-family: 'Source Code Pro', monospace;
   margin: 5px;
 }
 
+.navLink:hover{
+  background-color: #1DE9B6;
+}
 /*CONTENT*/
 
 .p1a{
