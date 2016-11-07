@@ -5,12 +5,28 @@
   background-size: cover;
 }
 
+img{
+  position: absolute;
+  z-index: 10;
+  left: 25%;
+  top: 10%;
+}
+
 .mainName{
-color: #ffffff;
-font-size: 5em;
-text-align: center;
-margin: 15%;
-font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+  font-size: 25vh;
+  text-align: center;
+  margin: auto 0;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.mainTitle{
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  margin: 2px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .mainLink{
