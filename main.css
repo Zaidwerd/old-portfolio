@@ -1,8 +1,9 @@
 /*INDEX.HTML*/
 .mainBoard{
-  background-image: url(background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-image: url(images/background.png);*/
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: #9E9E9E;
 }
 
 img{
@@ -12,20 +13,26 @@ img{
   top: 10%;
 }
 
+.main{
+  /*background-color: #9E9E9E;*/
+  width: 100%;
+  height: 700px;
+}
+
 .mainName{
   color: #ffffff;
   font-size: 25vh;
   text-align: center;
   margin: auto 0;
   font-family: 'Kaushan Script', cursive;
-
 }
 
 .mainTitle{
   color: #ffffff;
-  font-size: 1em;
+  font-size: 2em;
   text-align: center;
-  margin: 2px;
+  margin: 10px;
+  margin-bottom: 20%;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -41,69 +48,27 @@ img{
 }
 
 .mainLink:hover{
-  background-color: #000000;
+  background-color: #424242;
 }
 
-/*PROJECT.HTML*/
-.board{
-  background-color: #00897B;
-}
-/*HEADER*/
-.projectHeader{
-  height: 50px;
+/*Content*/
+
+.projects{
+  background-color:#EEEEEE;
   width: 100%;
-}
+  height: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 
-.logo{
-  height: 50px;
-  width: 50px;
-  background-color: #CFD8DC;
-  border-radius: 50%;
-  font-size: 10px;
-  display: inline-block;
-  float: left;
-  margin: 5px;
 }
-
-.logo:hover{
-  background-image: url(background.png);
-  background-size: contain;
-}
-
-.name{
- font-size: 3em;
- display: inline-block;
- float: left;
- color: #CFD8DC;
- margin: 5px;
-font-family: 'Source Code Pro', monospace;
-}
-
-.navLink{
-  height: 50px;
-  width: 50px;
-  background-color: #CFD8DC;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 10px;
-  display: inline-block;
-  float: right;
-  margin: 5px;
-}
-
-.navLink:hover{
-  background-color: #1DE9B6;
-}
-/*CONTENT*/
 
 .p1a{
   height: 300px;
   width: 420px;
   background-color: #CFD8DC;
-  display: inline-block;
-  float: left;
   margin: 20px;
-  background-image: url(sushime-gameplay.png);
+  background-image: url(screenshots/sushime-gameplay.png);
   background-size: cover;
   background-position: center;
 }
@@ -112,10 +77,8 @@ font-family: 'Source Code Pro', monospace;
   height: 300px;
   width: 420px;
   background-color: #CFD8DC;
-  display: inline-block;
-  float: left;
   margin: 20px;
-  background-image: url(sushime-landing.png);
+  background-image: url(screenshots/sushime-landing.png);
   background-size: cover;
   background-position: center;
 }
@@ -123,17 +86,32 @@ font-family: 'Source Code Pro', monospace;
 .p1Text{
   height: 250px;
   width: 250px;
-  display: inline-block;
-  float: left;
-  margin: 20px;
+  margin: 10px 20px;
   font-family: 'Source Code Pro', monospace;
 }
 
-/*RESUME.HTML*/
-
-.resumeBoard{
-  background-color: #004D40;
+.p2Text{
+  height: 200px;
+  width: 250px;
+  margin: 10px 20px;
+  font-family: 'Source Code Pro', monospace;
 }
 
+.p2a{
+  height: 300px;
+  width: 420px;
+  background-color: #CFD8DC;
+  margin: 20px;
+  background-image: url(screenshots/stayathome.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.p2b{
+  height: 300px;
+  width: 420px;
+  background-color: #CFD8DC;
+  margin: 20px;
+}
 
 
