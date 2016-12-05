@@ -57,7 +57,7 @@ img{
 }
 
 .mainLink:hover{
-  background-color: #424242;
+  background-color: #222;
 }
 
 /*Content*/
@@ -82,15 +82,43 @@ img{
   background-position: center;
 }
 
+.p1a-hidden{
+  height: 300px;
+  width: 420px;
+  z-index: 1;
+  opacity: 0;
+  background-color: black;
+  font-size: 25px;
+}
+
+.p1a-hidden:hover {
+  background-color: black;
+  opacity: 0.8;
+  }
+
 .p1b{
   height: 300px;
   width: 420px;
   background-color: #CFD8DC;
   margin: 20px;
-  background-image: url(screenshots/sushime-landing.png);
+  background-image: url(screenshots/robotrivalry-question.png);
   background-size: cover;
   background-position: center;
 }
+
+.p1b-hidden{
+  height: 300px;
+  width: 420px;
+  z-index: 1;
+  opacity: 0;
+  background-color: black;
+  font-size: 25px;
+}
+
+.p1b-hidden:hover {
+  background-color: black;
+  opacity: 0.8;
+  }
 
 .p1Text{
   height: 250px;
@@ -116,17 +144,61 @@ img{
   background-position: center;
 }
 
+.p2a-hidden{
+  height: 300px;
+  width: 420px;
+  z-index: 1;
+  opacity: 0;
+  background-color: black;
+  font-size: 25px;
+}
+
+.p2a-hidden:hover {
+  background-color: black;
+  opacity: 0.8;
+  }
+
 .p2b{
   height: 300px;
   width: 420px;
   background-color: #CFD8DC;
+  background-image: url(screenshots/robotrivalry-startpage.png);
+  background-size: cover;
+  background-position: center;
   margin: 20px;
 }
 
-.video{
+.p2b-hidden{
+  height: 300px;
+  width: 420px;
+  z-index: 1;
+  opacity: 0;
+  background-color: black;
+  font-size: 25px;
+}
+
+.p2b-hidden:hover {
+  background-color: black;
+  opacity: 0.8;
+  }
+
+footer{
+  text-align: center;
+}
+
+/*.video{
   position: fixed;
   z-index: -99;
   width: 100%;
   height: 700px;
+}*/
+
+p{
+  color: #fafafa;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
 }
 
