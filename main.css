@@ -13,18 +13,26 @@ img{
   top: 10%;
 }
 
-.main{
+.mainContainer{
   /*background-color: #9E9E9E;*/
   width: 100%;
   height: 700px;
+  margin: auto 0;
+}
+
+.main{
+  width: 90%;
+  height: 600px;
+  border: solid #FAFAFA 2px;
+  margin: 5%;
 }
 
 .mainName{
   color: #ffffff;
-  font-size: 25vh;
+  font-size: 20vh;
   text-align: center;
-  margin: auto 0;
-  font-family: 'Kaushan Script', cursive;
+  margin: auto;
+  font-family: 'Marck Script', cursive;
 }
 
 .mainTitle{
@@ -33,7 +41,8 @@ img{
   text-align: center;
   margin: 10px;
   margin-bottom: 20%;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Marck Script', cursive;
+
 }
 
 .mainLink{
@@ -114,4 +123,10 @@ img{
   margin: 20px;
 }
 
+.video{
+  position: fixed;
+  z-index: -99;
+  width: 100%;
+  height: 700px;
+}
 
