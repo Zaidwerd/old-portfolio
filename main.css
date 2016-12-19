@@ -6,11 +6,16 @@
   background-color: #9E9E9E;
 }
 
-img{
+/*img{
   position: absolute;
   z-index: 10;
   left: 25%;
   top: 10%;
+}*/
+
+.linkImage{
+  height: 50px;
+  width: 50px;
 }
 
 .mainContainer{
@@ -31,33 +36,71 @@ img{
   color: #ffffff;
   font-size: 20vh;
   text-align: center;
-  margin: auto;
-  font-family: 'Marck Script', cursive;
+  margin: 5%;
+  font-family: 'Cutive Mono', monospace;
 }
 
 .mainTitle{
   color: #ffffff;
   font-size: 2em;
   text-align: center;
-  margin: 10px;
-  margin-bottom: 20%;
+  margin: 5%;
   font-family: 'Marck Script', cursive;
 
 }
 
-.mainLink{
-  height: 50px;
-  width: 50px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  text-align: center;
-  display: inline-block;
-  font-size: 10px;
-  margin: 0 10%;
+.mainNav{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.mainLink:hover{
-  background-color: #222;
+.projectLink{
+  height: 50px;
+  width: 50px;
+  /*background-color: #ffffff;*/
+  display: inline-block;
+  margin: 0 2%;
+}
+
+.githubLink{
+  height: 50px;
+  width: 50px;
+  /*background-color: #ffffff;*/
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2%;
+}
+
+.linkedInLink{
+  height: 50px;
+  width: 50px;
+  /*background-color: #ffffff;*/
+  display: inline-block;
+  border-radius: 15%;
+  margin: 0 2%;
+}
+
+.resumeLink{
+  height: 50px;
+  width: 50px;
+  /*background-color: #ffffff;*/
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2%;
+}
+
+.projectLink:hover{
+  background-color: #FFF;
+}
+.githubLink:hover{
+  background-color: #FFF;
+}
+.linkedInLink:hover{
+  background-color: #FFF;
+}
+.resumeLink:hover{
+  background-color: #FFF;
 }
 
 /*Content*/
@@ -74,7 +117,7 @@ img{
 
 .p1a{
   height: 300px;
-  width: 420px;
+  width: 500px;
   background-color: #CFD8DC;
   margin: 20px;
   background-image: url(screenshots/sushime-gameplay.png);
@@ -84,7 +127,7 @@ img{
 
 .p1a-hidden{
   height: 300px;
-  width: 420px;
+  width: 500px;
   z-index: 1;
   opacity: 0;
   background-color: black;
@@ -98,17 +141,17 @@ img{
 
 .p1b{
   height: 300px;
-  width: 420px;
+  width: 500px;
   background-color: #CFD8DC;
   margin: 20px;
-  background-image: url(screenshots/robotrivalry-question.png);
+  background-image: url(screenshots/step-forward.png);
   background-size: cover;
   background-position: center;
 }
 
 .p1b-hidden{
   height: 300px;
-  width: 420px;
+  width: 500px;
   z-index: 1;
   opacity: 0;
   background-color: black;
@@ -136,7 +179,7 @@ img{
 
 .p2a{
   height: 300px;
-  width: 420px;
+  width: 500px;
   background-color: #CFD8DC;
   margin: 20px;
   background-image: url(screenshots/stayathome.png);
@@ -146,7 +189,7 @@ img{
 
 .p2a-hidden{
   height: 300px;
-  width: 420px;
+  width: 500px;
   z-index: 1;
   opacity: 0;
   background-color: black;
@@ -160,7 +203,7 @@ img{
 
 .p2b{
   height: 300px;
-  width: 420px;
+  width: 500px;
   background-color: #CFD8DC;
   background-image: url(screenshots/robotrivalry-startpage.png);
   background-size: cover;
@@ -170,7 +213,7 @@ img{
 
 .p2b-hidden{
   height: 300px;
-  width: 420px;
+  width: 500px;
   z-index: 1;
   opacity: 0;
   background-color: black;
